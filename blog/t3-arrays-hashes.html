@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+	<head><link rel="stylesheet" href="blog-stylesheet.css">
+		<title></title>
+	</head>
+
+
+	<body>
+		<div id="header"
+			<p id="name">Pete Duncan's Blog</p>
+		</div>
+
+			<div id="left"></div>
+   <div id="right">
+     <h2>Learn More on Arrays and Hashes</h2>
+      	<p>If you're new to Ruby and wanting to learn a bit more about arras and hashes, I've just been through the process of learnign and practicing them. So it's all fresh in my mind and I can tell you what you're about to go through<</p>
+
+        <h2>Arrays</h2>
+
+        <p>Let's start of with Arrays. Although arrays and hashes are as just as important as each other in Ruby, I think arrays seem to have more methods than hashes do. If you havn't already visit <a href='http://www.ruby-doc.org/core-2.0/Array.html#method-i-join'>Ruby Core For Arrays</a> and bookmark it somewhere because you're going to be referring to it alot. Make sure you have a good understanding on how these methods are explained as well. </p>
+
+        <p>The page is massive. I first went through and jotted all of the headings down on a page so I could see what was going on and then I started writing the individual methods down.
+          It's split up firstly by explaining what an array is and it's then split into the following categories:
+            <ol>
+                <li>Creating New Arrays</li>
+                <li>Accessing Elements</li>
+                <li>Obtaining Information About Arrays</li>
+                <li>Adding Items To Arrays</li>
+                <li>Removing Items From Arrays</li>
+                <li>Iterating Over Arrays</li>
+                <li>Selecting Items from Arrays</li>
+            </ol>
+        <p>So each category goes into explaining what the methods do and gives you an example of what they look like in practice.
+        The page then goes into "Public Methods" & "Public Instance Methods". It took me a while to work out what these where. I first thought they were a continuation of the miollions of array methods. But no, I was wrong, thank goodness! </p>
+
+        <p>By the way if you're on a Mac get to know command + up & down arrow you'll be going up and down the page like a yow yow! When you're referring to the method index on the right.</p>
+
+        <p>There is a tonne of stuff to learn about arrays but I think if I can give you the basics here, it will start you off on your journey to being an expert arrayist.</p>
+
+        <p>I was told by one of my coaches the best way to learn is by practicing in your irb with some of the methods from Ruby Doc. So start by creating new arrays and then move on to accessing some of the elements, move into obtaining some of the information about the arrays you've created. Iterating over arrays is a topic you'll really want to understand well because no doubt you'll be working with a lot of data and you'll need to know how to manipulate in a milion different ways to gain the insights you're looking for.You'll then start to really see the power of what arrays can do.</p>
+
+        <p>Here are some of the popluar methods:</p>
+          <h4>Accessing Elements</h4>
+          <ul>
+            <li>array.at - Use with () to find exact element</li>
+            <li>array.fetch - Raises an error or provides default value.</li>
+            <li>array.first - Returns the first element in the array.</li>
+            <li>array.last - Returns the last element in the array.</li>
+            <li>array.take(3) - Returns the 1st n element (1,2,3,) </li>
+            <li>array.drop(3) - Opposite of take - Afer n element (4,5,6)</li>
+          </ul>
+
+
+          <h4>Obtaining Information About Array</h4>
+          <ul>
+            <li>array.length - Returns the mumber of elements</li>
+            <li>array.count - Returns the number if elements</li>
+            <li>array.size - Returns the number if elements</li>
+            <li>array.empty? - Returns false</li>
+            <li>array.include? - Is a boolean ie ('not_here') => false </li>
+          </ul>
+
+          <h4>Adding Items To An Array</h4>
+          <ul>
+            <li>array.push or << - Items can be added to the end of the array</li>
+            <li>array.unshift - Add to the beginning of the array</li>
+            <li>array.insert - (3, 'apples') - Can insert multiple values</li>
+          </ul>
+
+        <p>So these are just some of the methods to get you started under their specic categories. I shall return to finish them off on another day!</p>
+
+      <h2>Hashes</h2>
+      	<p>Hashes are a great method to use if you need to take multiple sets of data. Hashes provide a key and a value for each set. Hashes, unlike arrays provide unordered sets of data. Arrays orders the data by integers, whereas hashes does not have any particular order for the data but can eaily be referenced by their key or their value.</p>
+
+        <p>Hashes are usually recoginised by the {} signs and their elements are identified by as so: hash = {key => value}. A hash can be created in multiple ways ie Class type this_is_a = Hash.new()  </p>
+	  	  <p>Hashes can hold multi-dimensional or mixed elements like integers, strings, arrays etc </p>
+        <p>Some of the built in methods are:</p>
+          <ul>
+            <li>hash.keys - Accessing the hash by keys</li>
+            <li>hash.values - Accessing the hash by values</li>
+            <li>hash.size - Return the number of elements</li>
+            <li>hash.to_a - Creates an array with hash elements</li>
+            <li>hash.clear - Sets hash back to {}</li>
+            <li>hash.index - Returns the values of the hash ie me.index('Peter') => "first_name"</li>
+            <li>hash.length - Returns the number of elements in the hash.</li>
+          </ul>
+
+          <p>Hashes can also take symbols as keys. When assiging a value to a key. You would like so hash = {my_symbol: 'Peter' </p>
+
+          <p>Anyway that's it for now until I return and give you part two of Arrays and Hashes.</p>
+          <p>Until then happy hash array!</p>
+
+	 <div class="left"></div>
+
+
+   </div>
+
+		<div id="footer"
+			<p>This is my footer!</p>
+		</div>
+
+	</body>
+
+
+</html>
+
+
